@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-// import { API_CONFIG } from "../../../config";
 import axios from "axios";
 import { jwtDecode } from "jwt-decode";
 import { API_CONFIG } from "../../config";
@@ -58,7 +57,9 @@ export const { setAccessToken, setAuthorities, signOut, setError, authorize } =
 
 export const login = (payload) => async (dispatch) => {
   try {
-    console.log("Pay:", payload);
+    // console.log("Pay:", payload);
+    console.log("url:", import.meta.env.VITE_BASE_API_URL);
+    
     const response = await axios.post(
       `${API_CONFIG.BASE_API_URL}${API_CONFIG.AUTHORIZE_API_URL}`,
       payload

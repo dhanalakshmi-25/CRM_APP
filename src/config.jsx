@@ -1,5 +1,5 @@
 export const API_CONFIG = {
-  BASE_API_URL: import.meta.env.VITE_BASE_API_URL || process?.env?.VITE_BASE_API_URL,
+  BASE_API_URL: import.meta.env.VITE_BASE_API_URL ,
   // AUTHORIZE_API_URL: '/api/auth/local',
   AUTHORIZE_API_URL: "/api/auth/login",
   REGISTER_API_URL: "/api/auth/register",
