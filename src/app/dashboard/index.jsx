@@ -10,7 +10,7 @@ import React from "react";
 import DashboardMetrics from "./metricsCount";
 import CallTrendsChart from "./chart";
 import Activities from "./activities";
-import ConnectedCalls from "./connectedcalls";
+import ConnectedCalls from "./connectedCalls";
 import { useNavigate } from "react-router-dom";
 import { logout } from "../../store";
 import { useDispatch } from "react-redux";
