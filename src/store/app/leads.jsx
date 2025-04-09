@@ -2,7 +2,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 // import { setError } from "./auth";
 import { API_CONFIG } from "../../config";
-import axios from "axios";
+// import axios from "axios";
+import axios from "../../utils/axios";
 
 const initialState = {
   leads: [],

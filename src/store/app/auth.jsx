@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
-import axios from "axios";
+// import axios from "axios";
 import { jwtDecode } from "jwt-decode";
 import { API_CONFIG } from "../../config";
+import axios from "../../utils/axios";
 
 const initialState = {
   access_token: null,

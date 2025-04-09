@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 // import { API_CONFIG } from "../../../config";
-import axios from "axios";
+// import axios from "axios";
+import axios from "../../utils/axios";
 import { API_CONFIG } from "../../config";
 
 const initialState = {
